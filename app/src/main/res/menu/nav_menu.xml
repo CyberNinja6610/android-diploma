@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragment_posts_feed"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        android:title="@string/title_posts"/>
+
+    <item
+        android:id="@+id/fragment_events_feed"
+        android:icon="@drawable/ic_baseline_event_24"
+        android:title="@string/title_events"/>
+
+    <item
+        android:id="@+id/fragment_jobs_feed"
+        android:icon="@drawable/ic_baseline_work_24"
+        android:title="@string/title_jobs"/>
+
+</menu>

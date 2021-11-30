@@ -1,0 +1,141 @@
+[
+  {
+    "id": 6,
+    "authorId": 1,
+    "author": "Dmitry",
+    "authorAvatar": null,
+    "content": "русский дух захватывает я вам и вашим близким здоровья и удачи вам во вложении я вам позвоню как буду дома после работы в сфере продаж в России не могу найти в приложении высылаю на согласование и подписание и с вами и с вами и обсудить с вами и с вами по Скайпу и обсудить все вопросы в письме ниже не могу найти в приложении",
+    "datetime": "2021-11-29T19:00:00Z",
+    "published": "2021-11-30T16:09:10.725Z",
+    "coords": null,
+    "type": "ONLINE",
+    "likeOwnerIds": [],
+    "likedByMe": false,
+    "speakerIds": [],
+    "participantsIds": [
+      1
+    ],
+    "participatedByMe": true,
+    "attachment": null,
+    "link": ""
+  },
+  {
+    "id": 5,
+    "authorId": 4,
+    "author": "Петя",
+    "authorAvatar": "http://res.cloudinary.com/hqb8gidp3/image/upload/v1638218350/ivpmwq1ftzacmdcnsvw4.jpg",
+    "content": "олииьльир",
+    "datetime": "2021-11-25T19:00:00Z",
+    "published": "2021-11-30T08:20:36.029Z",
+    "coords": null,
+    "type": "ONLINE",
+    "likeOwnerIds": [
+      4
+    ],
+    "likedByMe": false,
+    "speakerIds": [],
+    "participantsIds": [
+      1,
+      4
+    ],
+    "participatedByMe": true,
+    "attachment": {
+      "url": "http://res.cloudinary.com/hqb8gidp3/image/upload/v1638260433/fqqywzlqasnnedtez0gc.png",
+      "type": "IMAGE"
+    },
+    "link": ""
+  },
+  {
+    "id": 4,
+    "authorId": 4,
+    "author": "Петя",
+    "authorAvatar": "http://res.cloudinary.com/hqb8gidp3/image/upload/v1638218350/ivpmwq1ftzacmdcnsvw4.jpg",
+    "content": "gjjj",
+    "datetime": "2021-11-30T08:05:00Z",
+    "published": "2021-11-29T21:04:37.183Z",
+    "coords": null,
+    "type": "OFFLINE",
+    "likeOwnerIds": [
+      4
+    ],
+    "likedByMe": false,
+    "speakerIds": [],
+    "participantsIds": [
+      4
+    ],
+    "participatedByMe": false,
+    "attachment": {
+      "url": "http://res.cloudinary.com/hqb8gidp3/image/upload/v1638219875/sx8k8ukjlfayfcieu8gt.png",
+      "type": "IMAGE"
+    },
+    "link": ""
+  },
+  {
+    "id": 3,
+    "authorId": 2,
+    "author": "Олег",
+    "authorAvatar": "http://res.cloudinary.com/hqb8gidp3/image/upload/v1638117234/i20ad1almzsrn0pqauos.jpg",
+    "content": "рллп",
+    "datetime": "2021-11-12T03:00:00Z",
+    "published": "2021-11-28T16:34:29.178Z",
+    "coords": null,
+    "type": "OFFLINE",
+    "likeOwnerIds": [
+      4
+    ],
+    "likedByMe": false,
+    "speakerIds": [],
+    "participantsIds": [],
+    "participatedByMe": false,
+    "attachment": null,
+    "link": ""
+  },
+  {
+    "id": 2,
+    "authorId": 1,
+    "author": "Dmitry",
+    "authorAvatar": null,
+    "content": "ты же знаешь как дела кстати у меня очень много времени и денег видимо не дошло до того что бы не совсем понимаю что это за глаза на работе есть таблицы с уважением Александр отправлено в каком смысле нельзя было лекций от ",
+    "datetime": "2021-11-13T18:14:00Z",
+    "published": "2021-11-27T10:15:39.410Z",
+    "coords": null,
+    "type": "ONLINE",
+    "likeOwnerIds": [
+      1,
+      2,
+      4
+    ],
+    "likedByMe": true,
+    "speakerIds": [],
+    "participantsIds": [
+      1,
+      2
+    ],
+    "participatedByMe": true,
+    "attachment": null,
+    "link": null
+  },
+  {
+    "id": 1,
+    "authorId": 1,
+    "author": "Dmitry",
+    "authorAvatar": null,
+    "content": "тлщд",
+    "datetime": "2021-11-13T18:14:00Z",
+    "published": "2021-11-16T18:14:48.651Z",
+    "coords": null,
+    "type": "OFFLINE",
+    "likeOwnerIds": [
+      4
+    ],
+    "likedByMe": false,
+    "speakerIds": [],
+    "participantsIds": [],
+    "participatedByMe": false,
+    "attachment": {
+      "url": "http://res.cloudinary.com/hqb8gidp3/image/upload/v1638007164/aqhk85ewvoik0n8hqapo.jpg",
+      "type": "IMAGE"
+    },
+    "link": null
+  }
+]

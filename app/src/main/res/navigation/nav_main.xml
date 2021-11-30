@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/fragment_posts_feed">
+    <fragment
+        android:id="@+id/fragment_jobs_feed"
+        android:name="ru.netology.nmedia.ui.JobsFeedFragment"
+        android:label="@string/title_jobs"
+        tools:layout="@layout/fragment_jobs_feed">
+        <action
+            android:id="@+id/action_jobsFeedFragment_to_attachmentFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/fragment_attachment" />
+        <action
+            android:id="@+id/action_jobsFeedFragment_to_fragmentNewPost"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/fragment_new_post" />
+        <action
+            android:id="@+id/action_jobsFeedFragment_to_newJobFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            android:label="Редактировать работу"
+            app:destination="@id/fragment_new_job" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_posts_feed"
+        android:name="ru.netology.nmedia.ui.PostsFeedFragment"
+        android:label="@string/title_posts"
+        tools:layout="@layout/fragment_posts_feed">
+        <action
+            android:id="@+id/action_postsFeedFragment_to_attachmentFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/fragment_attachment" />
+
+        <action
+            android:id="@+id/action_postsFeedFragment_to_NewPostFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/fragment_new_post" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/fragment_events_feed"
+        android:name="ru.netology.nmedia.ui.EventsFeedFragment"
+        android:label="@string/title_events"
+        tools:layout="@layout/fragment_events_feed" >
+        <action
+            android:id="@+id/action_eventsFeedFragment_to_newEventFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/fragment_new_event" />
+        <action
+            android:id="@+id/action_eventsFeedFragment_to_attachmentFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/fragment_attachment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_attachment"
+        android:label="@string/title_attachment"
+        android:name="ru.netology.nmedia.ui.AttachmentFragment"
+        tools:layout="@layout/fragment_attachment" />
+
+    <fragment
+        android:id="@+id/fragment_new_post"
+        android:label="@string/title_post"
+        android:name="ru.netology.nmedia.ui.NewPostFragment"
+        tools:layout="@layout/fragment_new_post" />
+    <fragment
+        android:id="@+id/fragment_sign_in"
+        android:label="@string/sign_in"
+        android:name="ru.netology.nmedia.ui.SignInFragment"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/fragment_sign_up"
+        android:label="@string/sign_up"
+        android:name="ru.netology.nmedia.ui.SignUpFragment"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/fragment_new_event"
+        android:label="@string/event"
+        android:name="ru.netology.nmedia.ui.NewEventFragment"
+        tools:layout="@layout/fragment_new_event" />
+    <fragment
+        android:id="@+id/fragment_new_job"
+        android:label="@string/title_job"
+        android:name="ru.netology.nmedia.ui.NewJobFragment"
+        tools:layout="@layout/fragment_new_job" />
+
+</navigation>
